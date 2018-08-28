@@ -12,9 +12,9 @@ pipeline {
                 echo 'Testing..'
             }
         }
-		stage('pergunta') {
+		stage('Aprovado') {
             steps {
-                input 'Deploying?'
+                input 'Aprovado?'
             }
         }
         stage('Deploy') {
